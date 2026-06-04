@@ -19,22 +19,8 @@
 #include "mm.h"
 #include "memlib.h"
 
-/*********************************************************
- * NOTE TO STUDENTS: Before you do anything else, please
- * provide your team information in the following struct.
- ********************************************************/
-team_t team = {
-    /* Team name */
-    "Self-study",
-    /* First member's full name */
-    "Wufangjie Ma",
-    /* First member's email address */
-    "mwfj0215@gmail.com",
-    /* Second member's full name (leave blank if none) */
-    "",
-    /* Second member's email address (leave blank if none) */
-    ""
-};
+
+
 
 #define DEBUGx
 
