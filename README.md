@@ -4,6 +4,9 @@ A high-performance custom memory allocator implemented in **C** as part of the  
 
 This allocator recreates the behavior of standard dynamic memory management routines (`malloc`, `free`, and `realloc`) while improving allocation efficiency through **Explicit Segregated Free Lists**, **boundary tag coalescing**, **optimized block placement**, and **heap consistency verification**.
 
+> **Note:** Core allocator implementation is contained in `mm.c`.
+> Supporting files (`mm.h`, `memlib.c`, `memlib.h`, `Makefile`)
+> are included only for building and testing.
 ---
 
 # Table of Contents
